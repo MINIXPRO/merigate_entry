@@ -247,3 +247,24 @@ app_license = "mit"
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
 
+
+
+# Fixtures
+# --------
+fixtures = [
+    # Export Role
+    {
+        "dt": "Role",
+        "filters": [["role_name", "in", ["Merigate Entry User"]]]
+    },
+    # Export DocType
+    {
+        "dt": "DocType",
+        "filters": [["name", "in", ["Merigate Entry"]]]
+    },
+    # Export Custom Fields (token_expiry on User)
+    {
+        "dt": "Custom Field",
+        "filters": [["dt", "in", ["User"]]]
+    }
+]

@@ -1,0 +1,291 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:docname",
+ "creation": "2026-04-11 12:10:10.615172",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "docname",
+  "category",
+  "inward_location",
+  "gate_no",
+  "scan_barcode",
+  "gate_entry_no",
+  "gate_entry_date",
+  "company",
+  "name_of_supplier",
+  "supplier_gst",
+  "supplier_address",
+  "purchase_order_no",
+  "purchase_order_date",
+  "challan_invoice_no",
+  "challan_invoice_date",
+  "bill_of_entry_no",
+  "bill_of_entry_date",
+  "material_description",
+  "qty_as_per_inv_challan",
+  "eway_bill_no",
+  "eway_bill_date",
+  "transport_courier",
+  "lr_airway_bill_no",
+  "lr_airway_bill_date",
+  "vehicle_type",
+  "vehicle_no",
+  "driver_name",
+  "driver_mobile_no",
+  "invoice_value",
+  "created_by_mg",
+  "created_date",
+  "remark",
+  "status",
+  "file_url"
+ ],
+ "fields": [
+  {
+   "fieldname": "docname",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Merigate Doc Name",
+   "read_only": 1,
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Category",
+   "options": "General Purchase\nNon Business",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "inward_location",
+   "fieldtype": "Data",
+   "label": "Inward Location",
+   "read_only": 1
+  },
+  {
+   "fieldname": "gate_no",
+   "fieldtype": "Data",
+   "label": "Gate No",
+   "read_only": 1
+  },
+  {
+   "fieldname": "scan_barcode",
+   "fieldtype": "Data",
+   "label": "Scan Barcode",
+   "read_only": 1
+  },
+  {
+   "fieldname": "gate_entry_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Gate Entry No",
+   "read_only": 1
+  },
+  {
+   "fieldname": "gate_entry_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Gate Entry Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name of Company",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "name_of_supplier",
+   "fieldtype": "Data",
+   "label": "Name of Supplier",
+   "read_only": 1
+  },
+  {
+   "fieldname": "supplier_gst",
+   "fieldtype": "Data",
+   "label": "Supplier GST",
+   "read_only": 1
+  },
+  {
+   "fieldname": "supplier_address",
+   "fieldtype": "Data",
+   "label": "Supplier Address",
+   "read_only": 1
+  },
+  {
+   "fieldname": "purchase_order_no",
+   "fieldtype": "Data",
+   "label": "Purchase Order No",
+   "read_only": 1
+  },
+  {
+   "fieldname": "purchase_order_date",
+   "fieldtype": "Date",
+   "label": "Purchase Order Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "challan_invoice_no",
+   "fieldtype": "Data",
+   "label": "Challan/Invoice No",
+   "read_only": 1
+  },
+  {
+   "fieldname": "challan_invoice_date",
+   "fieldtype": "Date",
+   "label": "Challan/Invoice Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "bill_of_entry_no",
+   "fieldtype": "Data",
+   "label": "Bill of Entry No",
+   "read_only": 1
+  },
+  {
+   "fieldname": "bill_of_entry_date",
+   "fieldtype": "Date",
+   "label": "Bill of Entry Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "material_description",
+   "fieldtype": "Small Text",
+   "label": "Material Description",
+   "read_only": 1
+  },
+  {
+   "fieldname": "qty_as_per_inv_challan",
+   "fieldtype": "Data",
+   "label": "Qty as per Inv/Challan",
+   "read_only": 1
+  },
+  {
+   "fieldname": "eway_bill_no",
+   "fieldtype": "Data",
+   "label": "E-Way Bill No",
+   "read_only": 1
+  },
+  {
+   "fieldname": "eway_bill_date",
+   "fieldtype": "Date",
+   "label": "E-Way Bill Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "transport_courier",
+   "fieldtype": "Data",
+   "label": "Transport/Courier",
+   "read_only": 1
+  },
+  {
+   "fieldname": "lr_airway_bill_no",
+   "fieldtype": "Data",
+   "label": "LR/Airway Bill No",
+   "read_only": 1
+  },
+  {
+   "fieldname": "lr_airway_bill_date",
+   "fieldtype": "Date",
+   "label": "LR/Airway Bill Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "vehicle_type",
+   "fieldtype": "Data",
+   "label": "Vehicle Type",
+   "read_only": 1
+  },
+  {
+   "fieldname": "vehicle_no",
+   "fieldtype": "Data",
+   "label": "Vehicle No",
+   "read_only": 1
+  },
+  {
+   "fieldname": "driver_name",
+   "fieldtype": "Data",
+   "label": "Driver Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "driver_mobile_no",
+   "fieldtype": "Data",
+   "label": "Driver Mobile No",
+   "read_only": 1
+  },
+  {
+   "fieldname": "invoice_value",
+   "fieldtype": "Currency",
+   "label": "Invoice Value",
+   "read_only": 1
+  },
+  {
+   "fieldname": "created_by_mg",
+   "fieldtype": "Data",
+   "label": "Created By",
+   "read_only": 1
+  },
+  {
+   "fieldname": "created_date",
+   "fieldtype": "Date",
+   "label": "Created Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "remark",
+   "fieldtype": "Small Text",
+   "label": "Remark",
+   "read_only": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Open\nClosed\nCancelled",
+   "read_only": 1
+  },
+  {
+   "fieldname": "file_url",
+   "fieldtype": "Data",
+   "label": "File URL",
+   "read_only": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-04-11 12:35:56.632941",
+ "modified_by": "Administrator",
+ "module": "Merigate Entry",
+ "name": "Merigate Entry",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
